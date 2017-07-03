@@ -1,0 +1,74 @@
+
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+
+
+.shirt {
+  float: left;
+}
+
+.shirtcontainer{
+  display: inline-block;
+}
+
+
+.shirtsSection{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  background-color: lightgray;
+}
+
+
+
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+
+}
+.selector{
+  width: 80%;
+  height: 30px;
+  position: relative;
+
+}
+
+.triangle{
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #E6592E;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: absolute;
+  top: 15px;
+  /*left: 55px;*/
+}
+
+.menu{
+  width: 19%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  user-select: none;
+  border-right: solid 1px #E6592E;
+}
+
+.menu:hover{
+  background-color: #FFA;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: center;
+}

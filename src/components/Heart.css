@@ -1,0 +1,43 @@
+p {
+	margin: 0;
+}
+
+.heartsBox{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	pointer-events: none;
+}
+
+.heart{
+	font-size: 30px;
+	color: red;
+	position: absolute;
+	left: 50%;
+	margin: auto;
+	opacity: 0;
+	z-index: 100;
+}
+
+@keyframes flowOne {
+	0% {
+		opacity: 0;
+		bottom: 0%;
+	}
+	40% {
+		opacity: .8;
+	}
+	50% {
+		opacity: 1;
+	}
+	60% {
+		opacity: .2;
+	}
+	80% {
+		bottom: 80%
+	}
+	100% {
+		opacity: 0;
+		bottom: 100%;
+	}
+}
